@@ -4,7 +4,7 @@
 package jpu2016.dogfight.view;
 
 /**
- * @author ampy0
+ * @author Nenri
  *
  */
 public class DogfightView implements IViewSystem {
