@@ -5,6 +5,7 @@ package jpu2016.dogfight.view;
 import java.lang.Runnable;
 import java.util.Observable;
 import jpu2016.dogfight.controller.IOrderPerformer;
+import jpu2016.dogfight.model.IDogfightModel;
 
 /**
  * @author Nenri

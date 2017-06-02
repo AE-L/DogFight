@@ -3,6 +3,9 @@
  */
 package jpu2016.gameframe;
 
+import java.awt.Graphics;
+import java.awt.image.ImageObserver;
+
 /**
  * @author ampy0
  *
