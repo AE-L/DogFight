@@ -1,10 +1,12 @@
 package jpu2016.dogfight.model;
 
-public class Sky implemets IAera {
-	Sky() {
+public class Sky implements IArea {
+	private Sky() {
 	}
-	getDimension() {
+	public void getImage() {
 	}
-	getImage() {
+	public void getDimention() {
+
+		
 	}
 }
