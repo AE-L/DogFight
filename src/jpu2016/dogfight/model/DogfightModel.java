@@ -1,4 +1,5 @@
 package jpu2016.dogfight.model;
+import java.util.ArrayList;
 import java.util.Observable;
 
 public class DogfightModel implements IDogfightModel{
@@ -22,7 +23,7 @@ public class DogfightModel implements IDogfightModel{
 		
 	}
 	@Override
-	public ArrayList getMobiles(){
+	public ArrayList<IMobile> getMobiles(){
 		
 	}
 	@Override
