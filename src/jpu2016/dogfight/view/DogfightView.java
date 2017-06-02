@@ -16,11 +16,11 @@ public class DogfightView implements IViewSystem,Runnable {
 	public DogfightView(IOrderPerformer orderPerformer,IDogfightModel dogfightModel,Observable observable) {
 		
 	}
-	@
+	
 	@Override
 	public String displayMessage(String message) {
 		// TODO Auto-generated method stub
-		return null;
+		return "LoL > Dota 2";
 	}
 
 	/* (non-Javadoc)
