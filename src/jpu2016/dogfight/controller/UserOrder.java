@@ -7,9 +7,11 @@ public class UserOrder {
 		
 	}
 	public Order getOrder(){
-		
+		Order order=null;
+		return order;
 	}
 	public int getPlayer(){
-		
+		player=1;
+		return player;
 	}
 }
