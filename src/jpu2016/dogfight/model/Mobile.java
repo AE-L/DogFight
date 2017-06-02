@@ -6,6 +6,7 @@ import jpu2016.dogfight.model.Direction;
 
 public class Mobile implements IMobile{
 	private int speed;
+	
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image){
 		
 	}
