@@ -3,9 +3,9 @@
  */
 package jpu2016.dogfight.view;
 
-import jpu2016.gameframe.Graphics;
 import jpu2016.gameframe.IGraphicsBuilder;
-import jpu2016.gameframe.ImageObserver;
+import java.ImageObserver;
+import java.awt.Graphics;
 
 /**
  * @author ampy0
