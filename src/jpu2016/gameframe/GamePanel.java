@@ -3,6 +3,7 @@
  */
 package jpu2016.gameframe;
 
+import java.awt.Graphics;
 import java.util.Observable;
 import java.util.Observer;
 

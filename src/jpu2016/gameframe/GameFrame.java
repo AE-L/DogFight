@@ -6,6 +6,7 @@ package jpu2016.gameframe;
 import javax.swing.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+import java.util.Observable;
 
 /**
  * @author ampy0
