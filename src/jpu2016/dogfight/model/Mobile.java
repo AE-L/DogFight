@@ -4,7 +4,7 @@ import jpu2016.dogfight.model.Position;
 import jpu2016.dogfight.model.Direction;
 
 
-public class Mobile implements IMobile{
+public class Mobile  implements IMobile{
 	private int speed;
 	
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image){
@@ -13,22 +13,22 @@ public class Mobile implements IMobile{
 
 	@Override
 	public Direction getDirection() {
-		return null;
+		return direction;
 	}
 
 	@Override
-	public void setDirection() {
+	public void setDirection(Direction direction) {
 		
 	}
 
 	@Override
-	public Point getPoint() {
-		return null;
+	public Position getPosition() {
+		return position;
 	}
 
 	@Override
-	public Dimension getDimention() {
-		return null;
+	public getDimension getDimension() {
+		return dimension;
 	}
 
 	@Override
@@ -66,6 +66,23 @@ public class Mobile implements IMobile{
 		return false;
 	}
 
+	public void moveUp(){
+		
+	}
+	public void moveDown(){
+		
+	}
+	public void moveRight(){
+	
+	}
+	public void moveLeft(){
+	
+	}
+
+	public Color getColor(){
+		
+	}
+	
 	@Override
 	public void setDogfightModel(Dogfight dogfightModel) {
 		
