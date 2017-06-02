@@ -1,12 +1,16 @@
 package jpu2016.dogfight.model;
+import jpu2016.dogfight.model.Dimension;
 
 public class Sky implements IArea {
-	private Sky() {
+	public Sky(Dimension dimension) {
 	}
+	@Override
 	public void getImage() {
+		return image;
 	}
-	public void getDimention() {
+	@Override
+	public Dimension getDimension() {
+		return dimension;
 
-		
 	}
 }
